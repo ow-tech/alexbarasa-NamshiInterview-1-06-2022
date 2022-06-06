@@ -1,5 +1,5 @@
 .square {
-  background: rgb(2, 18, 240);
+  background: blue;
   border: 5px solid rgb(231, 231, 231);
   float: left;
   font-size: 50px;
@@ -10,6 +10,7 @@
   text-align: center;
   width: 80px;
   height: 80px;
+  content-visibility: hidden;
 }
 
 .square:focus {
@@ -26,6 +27,14 @@
   display:table;
 }
 
+.redStyle{
+  background-color: red;
+  content-visibility: visible;
+}
+.blueStyle{
+  background-color: blue;
+  content-visibility: visible;
+}
 
 .matrix {
   position: absolute;
